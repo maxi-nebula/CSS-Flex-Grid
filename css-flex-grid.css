@@ -1,0 +1,15 @@
+/** @format */
+
+.container {
+  display: grid;
+  /* grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 50px 50px;*/
+
+  grid-template: 50px 50px /50px 50px;
+
+  gap: 100px;
+}
+
+.container > div {
+  border: 1px solid green;
+}
